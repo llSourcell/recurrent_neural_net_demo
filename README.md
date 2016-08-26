@@ -16,7 +16,7 @@ Basic Usage
 
 Run rnn.py, that's it! 
 
-That's it!
+
 
 Credits
 ===========
