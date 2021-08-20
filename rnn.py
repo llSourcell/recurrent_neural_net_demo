@@ -114,11 +114,11 @@ for j in range(10000):
     
     # print out progress
     if(j % 1000 == 0):
-        print "Error:" + str(overallError)
-        print "Pred:" + str(d)
-        print "True:" + str(c)
+        print("Error:" + str(overallError))
+        print("Pred:" + str(d))
+        print("True:" + str(c))
         out = 0
         for index,x in enumerate(reversed(d)):
             out += x*pow(2,index)
-        print str(a_int) + " + " + str(b_int) + " = " + str(out)
-        print "------------"
+        print(str(a_int) + " + " + str(b_int) + " = " + str(out))
+        print("------------")
